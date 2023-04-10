@@ -1,3 +1,4 @@
+#MEMBACA GAMBAR
 import cv2
 img = cv2.imread('anatomy.jfif')
 cv2.imshow('image',img)
