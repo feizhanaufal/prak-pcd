@@ -229,6 +229,13 @@
     <addaction name="actionotsu_threshld"/>
     <addaction name="actioncountour"/>
    </widget>
+   <widget class="QMenu" name="menuColor_processing">
+    <property name="title">
+     <string>Color processing</string>
+    </property>
+    <addaction name="actioncolor_tracking"/>
+    <addaction name="actioncolor_picker"/>
+   </widget>
    <addaction name="pencerahan"/>
    <addaction name="menuHistogram"/>
    <addaction name="menuoperasi_geometri"/>
@@ -240,6 +247,7 @@
    <addaction name="menuMorfologi"/>
    <addaction name="menulocal_threshold"/>
    <addaction name="menuAdaptive_Thresholding"/>
+   <addaction name="menuColor_processing"/>
   </widget>
   <action name="actionpencerahan">
    <property name="text">
@@ -599,6 +607,16 @@
   <action name="actioncountour">
    <property name="text">
     <string>countour</string>
+   </property>
+  </action>
+  <action name="actioncolor_tracking">
+   <property name="text">
+    <string>color tracking</string>
+   </property>
+  </action>
+  <action name="actioncolor_picker">
+   <property name="text">
+    <string>color picker</string>
    </property>
   </action>
  </widget>
